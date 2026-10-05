@@ -1,0 +1,25 @@
+{
+  "name": "ideavault",
+  "version": "1.0.0",
+  "description": "IdeaVault - Student Project Idea Similarity & Advisory Engine",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "dev": "npm run server"
+  },
+  "keywords": [
+    "ideavault",
+    "education",
+    "similarity",
+    "tfidf",
+    "react",
+    "express"
+  ],
+  "author": "IdeaVault",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^22.23.3"
+  }
+}

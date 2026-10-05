@@ -1,0 +1,24 @@
+{
+  "name": "ideavault-server",
+  "version": "1.0.0",
+  "description": "IdeaVault Backend API and Similarity Engine",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "seed": "node db/seed.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": ["ideavault", "similarity", "tfidf", "sqlite", "express"],
+  "author": "IdeaVault Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
